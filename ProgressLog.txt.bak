@@ -1,0 +1,71 @@
+Progress Log
+
+2/2 (.25 hr):
+- create project
+- create test project
+- create Card, Suit classes
+
+2/3 (.75 hr):
+- create main program
+- add Task, Hand classes
+- add CardTests, TaskTests
+- move both csproj files into src folder
+
+2/4 (2 hr):
+- create GameState class 
+- create Solver class  
+- implemented PlayRound function to simulate one round
+- started breaking down PlayRound functionality - implemented Cartesian Product, split it out as separate function
+
+2/5 (1hr):
+- Updated test names
+- Adding HandTests
+- Testing Cartesian Product
+
+2/6 (1hr):
+- Add tests for Cartesian Product
+- Configure code formater
+- Redefine ValidateGameState to UpdateGameState
+
+2/7 (0.5hr):
+- Add RoundTests
+- Add GameState Equals, and tests
+
+2/8 (1hr):
+- write UpdateGameState tests
+- finish PlayRound implementatio
+
+2/9 (1hr):
+- fix the indexing for players, tasks in UpdateGameState and PlayRound
+- fixed a bunch of bugs in Solver
+- made players 0-indexed instead of 1-indexed
+- add a test where the winning player is not the first player
+
+2/10 (0.5hr):
+- make SolverTest classes partial
+- add UpdateGameState tests for 3 players
+- started adding PlayRound tests 
+
+2/13 (0.5hr):
+- added more tests for PlayRound 
+
+2/14 (0.5hr):
+- make all fields properties using AutoProperties
+- Make GameState serializable
+- First pass at making input easier
+
+2/15 (1hr):
+- Used JsonSerializer to serializer a sample object
+- Read from input.json 
+- Add ToString for all classes
+- Add Program.cs that can read input
+
+2/20:
+- Remove StartingHands from GameState - it's not used anywhere, makes tests cumbersome to write
+
+2/21:
+- Refactor GameState to take player hands and not lists of player cards, player tasks
+- update input.json to use hands
+
+// TODO: upload to github
+// TODO: improve logging - make it easier to tell what happened, what combinations were tried 

@@ -1,0 +1,117 @@
+{
+  "PlayerHands": {
+    "0": {
+      "Cards": [
+        {
+          "Value": 1,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 2,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 9,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 1,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 3,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 4,
+          "Suit": "Yellow"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 1,
+            "Suit": "Blue"
+          }
+        }
+      ]
+    },
+    "1": {
+      "Cards": [
+        {
+          "Value": 1,
+          "Suit": "Green"
+        },
+        {
+          "Value": 1,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 4,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 2,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 6,
+          "Suit": "Green"
+        },
+        {
+          "Value": 8,
+          "Suit": "Yellow"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 1,
+            "Suit": "Yellow"
+          }
+        }
+      ]
+    },
+    "2": {
+      "Cards": [
+        {
+          "Value": 7,
+          "Suit": "Green"
+        },
+        {
+          "Value": 3,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 9,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 1,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 5,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 3,
+          "Suit": "Green"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 4,
+            "Suit": "Yellow"
+          }
+        }
+      ]
+    }
+  },
+  "RoundsCompleted": [],
+  "IsWin": false,
+  "IsOver": false,
+  "PlayerCount": 3,
+  "FirstPlayerIndex": 0
+}
