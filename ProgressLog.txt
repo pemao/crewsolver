@@ -67,5 +67,9 @@ Progress Log
 - Refactor GameState to take player hands and not lists of player cards, player tasks
 - update input.json to use hands
 
-// TODO: upload to github
+2/23 (0.5hr): 
+- Uploaded to github
+
+
+// TODO: add gitignore
 // TODO: improve logging - make it easier to tell what happened, what combinations were tried 
