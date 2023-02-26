@@ -2,7 +2,12 @@
 Console.WriteLine("CREW SOLVER");
 Console.WriteLine("===========");
 
-if (args.Length > 0)
+var hands = Generator.GenerateHands(4, 4);
+var initialGameState = new GameState(hands);
+
+Console.WriteLine(initialGameState);
+
+/*if (args.Length > 0)
 {
     var fileName = args[0];
 
@@ -39,4 +44,4 @@ if (args.Length > 0)
 else
 {
     Console.WriteLine("No input file found.");
-}
+}*/
