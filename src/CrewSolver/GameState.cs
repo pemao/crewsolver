@@ -1,6 +1,6 @@
 ﻿namespace CrewSolver
 {
-    public class GameState
+    internal class GameState
     {
         /// <summary>
         /// The player hands.

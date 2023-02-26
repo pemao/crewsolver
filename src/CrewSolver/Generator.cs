@@ -1,5 +1,8 @@
 ﻿namespace CrewSolver
 {
+    /// <summary>
+    /// Generate random hands for testing.
+    /// </summary>
     internal class Generator
     {
         /// <summary>

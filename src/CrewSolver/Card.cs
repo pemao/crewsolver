@@ -3,7 +3,7 @@
     /// <summary>
     /// Class representation of a card.
     /// </summary>
-    public class Card
+    internal class Card
     {
         public int Value { get; }
 

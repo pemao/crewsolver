@@ -3,7 +3,7 @@
     /// <summary>
     /// Card suits.
     /// </summary>
-    public enum Suit
+    internal enum Suit
     {
         Blue,
         Green,
