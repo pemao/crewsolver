@@ -1,6 +1,6 @@
 ﻿namespace CrewSolver
 {
-    public class Round
+    internal class Round
     {
         public int FirstPlayerIndex { get; }
         public int WinningPlayerIndex { get; }

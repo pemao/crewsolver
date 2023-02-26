@@ -1,6 +1,6 @@
 ﻿namespace CrewSolver
 {
-    public class Task
+    internal class Task
     {
         public Card Card { get; }
 

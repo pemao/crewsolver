@@ -4,7 +4,7 @@
     /// Class representation of a player. A player consists of their
     /// cards and their tasks.
     /// </summary>
-    public class Hand
+    internal class Hand
     {
         public List<Card> Cards { get; }
         public List<Task> Tasks { get; }

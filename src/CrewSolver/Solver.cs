@@ -1,7 +1,6 @@
 ﻿namespace CrewSolver
 {
-    // TODO make classes internal, methods private, give tests access to private methods
-    public static class Solver
+    internal static class Solver
     {
 
         /// <summary>
