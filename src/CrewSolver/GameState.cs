@@ -52,15 +52,8 @@
 
                 if (PlayerHands[i].Cards.Contains(new Card(4, Suit.Rocket)))
                 {
-                    Console.WriteLine($"Player {i + 1} is first to act (holds 4 Rocket).");
+                    // Console.WriteLine($"Player {i + 1} is first to act (holds 4 Rocket).");
                     this.FirstPlayerIndex = i;
-                    break;
-                }
-
-                if (i == PlayerCount - 1)
-                {
-                    Console.WriteLine("Player 1 is first to act (no 4 Rocket found, assuming first player acts first).");
-                    this.FirstPlayerIndex = 0;
                 }
             }
 

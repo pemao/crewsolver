@@ -1,11 +1,8 @@
-﻿Console.WriteLine("===========");
+﻿Generator.GenerateRandomGameStates();
+
+/*Console.WriteLine("===========");
 Console.WriteLine("CREW SOLVER");
-Console.WriteLine("===========");
-
-var hands = Generator.GenerateHands(4, 4);
-var initialGameState = new GameState(hands);
-
-Console.WriteLine(initialGameState);
+Console.WriteLine("===========");*/
 
 /*if (args.Length > 0)
 {
