@@ -5,6 +5,37 @@
     /// </summary>
     internal class Generator
     {
+        public static void GenerateRandomGameStates()
+        {
+            // Create folder for test jsons.
+            var path = "../CrewSolverTests/TestGameStates";
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+
+            // For 1 to 10 tasks.
+            for (int i = 1; i <= 10; i++)
+            {
+                // For 3 to 5 players.
+                for (int j = 4; j <= 4; j++)
+                {
+                    Console.WriteLine($"Generating {j} players, {i} tasks");
+
+                    var hands = Generator.GenerateHands(j, i);
+                    var initialGameState = new GameState(hands);
+
+                    var options = new JsonSerializerOptions()
+                    {
+                        WriteIndented = true,
+                    };
+                    var jsonString = JsonSerializer.Serialize(initialGameState, options);
+
+                    File.WriteAllText($"{path}/Random_{j}Players_{i}Tasks.json", jsonString);
+                }
+            }
+        }
+
         /// <summary>
         /// Given a number of players and number of tasks, generate a random list of hands.
         /// </summary>
@@ -59,19 +90,21 @@
             }
 
             // assign tasks in order (first player gets task first)
+            var allCardsNoRockets = allCards.Where(x => x.Suit != Suit.Rocket).ToList();
             var taskNumber = 0;
+            var tasksSet = new HashSet<int>();
             while (taskNumber < numTasks)
             {
                 var curPlayer = firstPlayerIndex + taskNumber % numPlayers;
-                var rand = 0;
+                var rand = rng.Next(allCardsNoRockets.Count);
 
-                do
+                while (tasksSet.Contains(rand))
                 {
-                    rand = rng.Next(allCards.Count);
+                    rand = rng.Next(allCardsNoRockets.Count);
                 }
-                while (allCards[rand].Suit == Suit.Rocket);
 
-                playerTasks[curPlayer].Add(new Task(allCards[rand]));
+                tasksSet.Add(rand);
+                playerTasks[curPlayer].Add(new Task(allCardsNoRockets[rand]));
                 taskNumber++;
             }
 
