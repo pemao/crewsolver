@@ -1,0 +1,253 @@
+{
+  "PlayerHands": {
+    "0": {
+      "Cards": [
+        {
+          "Value": 7,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 9,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 1,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 5,
+          "Suit": "Green"
+        },
+        {
+          "Value": 4,
+          "Suit": "Green"
+        },
+        {
+          "Value": 5,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 2,
+          "Suit": "Green"
+        },
+        {
+          "Value": 9,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 6,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 8,
+          "Suit": "Blue"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 3,
+            "Suit": "Yellow"
+          }
+        },
+        {
+          "Card": {
+            "Value": 6,
+            "Suit": "Pink"
+          }
+        },
+        {
+          "Card": {
+            "Value": 4,
+            "Suit": "Pink"
+          }
+        }
+      ]
+    },
+    "1": {
+      "Cards": [
+        {
+          "Value": 2,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 7,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 2,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 1,
+          "Suit": "Green"
+        },
+        {
+          "Value": 3,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 3,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 3,
+          "Suit": "Green"
+        },
+        {
+          "Value": 2,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 6,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 7,
+          "Suit": "Blue"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 8,
+            "Suit": "Yellow"
+          }
+        },
+        {
+          "Card": {
+            "Value": 8,
+            "Suit": "Blue"
+          }
+        },
+        {
+          "Card": {
+            "Value": 5,
+            "Suit": "Green"
+          }
+        }
+      ]
+    },
+    "2": {
+      "Cards": [
+        {
+          "Value": 4,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 9,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 4,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 4,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 8,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 5,
+          "Suit": "Pink"
+        },
+        {
+          "Value": 8,
+          "Suit": "Green"
+        },
+        {
+          "Value": 1,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 5,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 1,
+          "Suit": "Pink"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 1,
+            "Suit": "Yellow"
+          }
+        },
+        {
+          "Card": {
+            "Value": 7,
+            "Suit": "Yellow"
+          }
+        }
+      ]
+    },
+    "3": {
+      "Cards": [
+        {
+          "Value": 1,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 6,
+          "Suit": "Green"
+        },
+        {
+          "Value": 2,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 7,
+          "Suit": "Green"
+        },
+        {
+          "Value": 8,
+          "Suit": "Yellow"
+        },
+        {
+          "Value": 9,
+          "Suit": "Green"
+        },
+        {
+          "Value": 6,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 4,
+          "Suit": "Blue"
+        },
+        {
+          "Value": 3,
+          "Suit": "Rocket"
+        },
+        {
+          "Value": 3,
+          "Suit": "Blue"
+        }
+      ],
+      "Tasks": [
+        {
+          "Card": {
+            "Value": 6,
+            "Suit": "Yellow"
+          }
+        },
+        {
+          "Card": {
+            "Value": 9,
+            "Suit": "Pink"
+          }
+        }
+      ]
+    }
+  },
+  "RoundsCompleted": [],
+  "IsWin": false,
+  "IsOver": false,
+  "PlayerCount": 4,
+  "FirstPlayerIndex": 2
+}

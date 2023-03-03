@@ -18,4 +18,8 @@
     <ProjectReference Include="..\CrewSolver\CrewSolver.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestGameStates\" />
+  </ItemGroup>
+
 </Project>
